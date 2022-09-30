@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+
+.center, div {
+    text-align: center;
+    margin: auto;
+    padding: 10%;
+    border: 5px;
+    font-weight: bolder;
+}
+
+#txt-input {
+    text-align: center;
+    padding: 35px 0px 25px;
+    border: 10px solid rgb(152, 152, 151);
+    border-radius: 1rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    resize: none;
+}
+
+* {
+    background-color: beige;
+    font-family: 'Prompt', sans-serif;
+}
+
+#btn-translate {
+    border: 10px pink solid;
+    border-radius: 1rem;
+    background-color: pink;
+    width: 90%;
+}
+
+#output {
+    border: 5px solid rgb(152, 152, 151);
+    border-radius: 1rem;
+    max-width: 90%;
+    margin: auto;
+    padding: 50px 0px;
+}

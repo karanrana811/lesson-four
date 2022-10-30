@@ -1,41 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;1,100&display=swap");
 
+:root {
+    --primary-color: #22D8BE;
+    --light-color: #eafcf9;
+    --dark-color: #b7f4eb;
+}
 
-.center, div {
+html {
+    max-width: 100%;
+}
+
+body {
+    margin: 0px auto;
+    font-family: "Prompt", sans-serif;
+    letter-spacing: 2px;
+    background-color: var(--primary-color);
+    text-align: center;
+    max-width: 100vw;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
     text-align: center;
     margin: auto;
-    padding: 10%;
+    padding-top: 2rem;
     border: 5px;
     font-weight: bolder;
+    width: 60%;
 }
 
 #txt-input {
     text-align: center;
-    padding: 35px 0px 25px;
-    border: 10px solid rgb(152, 152, 151);
+    padding: 2rem;
+    border: none;
     border-radius: 1rem;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
     resize: none;
-}
-
-* {
-    background-color: beige;
-    font-family: 'Prompt', sans-serif;
+    background-color: var(--light-color);
 }
 
 #btn-translate {
-    border: 10px pink solid;
+    border: none;
+    width: 30%;
+    padding: 1rem;
     border-radius: 1rem;
-    background-color: pink;
-    width: 90%;
+    background-color: var(--dark-color);
+    font-family: "Prompt", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+#btn-translate:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px var(--primary-color);
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background-color: var(--light-color);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: white;
+    margin: 2rem;
 }
 
 #output {
-    border: 5px solid rgb(152, 152, 151);
+    border: none;
+    background-color: var(--dark-color);
+    color: black;
     border-radius: 1rem;
-    max-width: 90%;
+    width: 70%;
     margin: auto;
-    padding: 50px 0px;
+    padding: 2rem;
+}
+
+.footer {
+    text-align: center;
+    margin: auto auto 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+.footer-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    padding: 0.5rem auto;
+}
+
+.list-non-bullet {
+    padding: 0;
+    margin: 0.5rem auto;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0 4px;
+}
+
+img {
+    width: 30px;
+    margin: 20px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 4px;
 }

@@ -123,3 +123,41 @@ img {
     text-decoration: none;
     padding: 4px;
 }
+
+.minion1 {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.2;
+}
+
+.minion2 {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 1150px) {
+    #btn-translate {
+        width: 204px;
+    }
+    .footer {
+        position: static;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .minion2 {
+        display: none;
+    }
+    .minion1 {
+        top: 0;
+        width: 80%;
+        left:5%;
+        opacity: 0.1;
+    }
+}

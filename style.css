@@ -163,4 +163,7 @@ img {
         opacity: 0.5;
         z-index: -999;
     }
+    h1, h3 {
+        text-shadow: 1px 2px black;
+    }
 }

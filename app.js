@@ -18,7 +18,7 @@ function clickHandler() {
 
 function errorHandler(error) {
     console.log("An error occured");
-    alert("An error occured. Please try again after an hour.");
+    outputDiv.innerText = "An error occured. Please try again after an hour.";
 }
 
 
